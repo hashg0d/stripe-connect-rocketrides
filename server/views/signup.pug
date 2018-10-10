@@ -19,7 +19,7 @@ block content
         form(method='POST', autocomplete='off')
           fieldset
             .row(label='Email')
-              input(type='email', name='email', placeholder='jane@example.com', required, autofocus)
+              input(type='email', name='email', placeholder='oskar@spotify.com', required, autofocus)
             .row(label='Password')
               input(type='password', name='password', placeholder='••••••••', required)
           input(type='submit', value='Create Account')
@@ -37,43 +37,28 @@ block content
           h4.pilot-header Personal Information
           fieldset
             .row.pilot-info.individual(label='* First Name')
-              input(type='text', name='firstName', placeholder='Jane')
+              input(type='text', name='firstName', placeholder='Oskar')
             .row.pilot-info.individual(label='* Last Name')
-              input(type='text', name='lastName', placeholder='Diaz')
+              input(type='text', name='lastName', placeholder='Stål')
             .row.pilot-info.company.hidden(label='* Company Name')
               input(type='text', name='businessName', placeholder='Infinity & Beyond LLC')
             .row(label='Address')
-              input(type='text', name='address', placeholder='185 Berry St', value='185 Berry St')
+              input(type='text', name='address', placeholder='185 Berry St')
             .row(label='Postal Code')
-              input(type='text', name='postalCode', placeholder='94107', value='94107')
+              input(type='text', name='postalCode', placeholder='94107')
             .row(label='City')
-              input(type='text', name='city', placeholder='San Francisco', value='San Francisco')
+              input(type='text', name='city', placeholder='San Francisco')
             .row.select(label='Country')
               select(name='country')
                 option(value='US') United States
           aside (*) indicates required fields for this demo.
-          h4 Rocket Information
-          fieldset
-            .row(label='Make & Model')
-              input(type='text', name='rocket[model]', placeholder='Lightspeed 3000', value='Lightspeed 3000')
-            .row(label='License Plate')
-              input(type='text', name='rocket[license]', placeholder='FUTURE 7', value='FUTURE 7')
-            .row.select(label='Color')
-              select(name='rocket[color]')
-                option(value='red') Red
-                option(value='orange') Orange
-                option(value='yellow') Yellow
-                option(value='green') Green
-                option(value='blue', selected) Blue
-                option(value='purple') Purple
-                option(value='black') Black
-                option(value='white') White
+          
           input(type='submit', value='Save Profile')
 
       when 'payments'
-        h2 Connect your Rocket Rides account to Stripe
-        p We use Stripe to make sure you get paid on time and keep your personal and bank details secure.
-        a.button(href='/pilots/stripe/authorize') Setup Payments on Stripe
+        h2 Connect your Mineful Publisher account to Stripe
+        p We leverage Stripe to make sure you get paid on time and keep your personal and bank details secure.
+        a.button(href='/pilots/stripe/authorize') Setup Your Payment Method
 
       when 'done'
         .checkmark
