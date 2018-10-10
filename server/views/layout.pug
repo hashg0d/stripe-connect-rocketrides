@@ -18,7 +18,7 @@ html
         if pilot
           .links
             if pilot.stripeAccountId
-              a(href='/pilots/dashboard') Dashboard
+            a(onclick="window.open(href='/pilots/dashboard', '_blank');") Dashboard
             a(href='/pilots/logout') Logout
         else
           a.arrow(href='/pilots/login') Login
