@@ -17,8 +17,8 @@ module.exports = {
     secretKey: '',
     publishableKey: '',
     clientId: '',
-    authorizeUri: 'http://connect.stripe.com/express/oauth/authorize',
-    tokenUri: 'http://connect.stripe.com/oauth/token'
+    authorizeUri: 'https://connect.stripe.com/express/oauth/authorize',
+    tokenUri: 'https://connect.stripe.com/oauth/token'
   },
 
   // Configuration for MongoDB.
