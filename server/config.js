@@ -17,7 +17,7 @@ module.exports = {
     secretKey: '',
     publishableKey: '',
     clientId: '',
-    authorizeUri: 'https://connect.stripe.com/express/oauth/authorize',
+    authorizeUri: 'http://connect.stripe.com/express/oauth/authorize',
     tokenUri: 'https://connect.stripe.com/oauth/token'
   },
 
