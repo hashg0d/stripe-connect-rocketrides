@@ -50,7 +50,7 @@ section {
 
 header {
   width: 100%;
-  background-color: #13B57D;
+  background-color: #4FABF5;
 }
 
 h1 {
@@ -86,13 +86,13 @@ a.arrow {
   line-height: 60px;
   font-size: 17px;
   font-weight: bold;
-  border-bottom: 1px solid #11AB75;
+  border-bottom: 1px solid #2590E6;
 }
 
 #top .rocketrides {
   flex: 1;
   padding-left: 75px;
-  background: url(/images/rocketrides.svg) left center no-repeat;
+  background: url(https://cdn.getforge.com/mineful.com/1538468868/images/888f8224-b846-4e93-94d9-7fa0128b8371.png) left center no-repeat;
 }
 
 #top .links a {
@@ -106,7 +106,7 @@ a.arrow {
 nav {
   width: 100%;
   height: 50px;
-  background: #01966F;
+  background: #086FC2;
 }
 
 nav ul,
@@ -137,7 +137,7 @@ nav ol li::before {
   counter-increment: steps;
   display: inline-table;
   margin-right: 10px;
-  background: #13B57D;
+  background: #339CF1;
   color: #FFF;
   text-align: center;
   font-weight: bold;
@@ -444,7 +444,7 @@ a.button:hover {
 input[type="submit"]:active,
 button:active,
 a.button:active {
-  background-color: #01966F;
+  background-color: #4DA3F5;
 }
 
 header button,
@@ -697,7 +697,7 @@ form a.button {
   right: calc(100% - 25px);
   width: 10px;
   height: 10px;
-  background: #13B57D;
+  background: #4B9DF4;
   border-radius: 10px;
 }
 
