@@ -2,14 +2,14 @@ extends layout
 
 block header
   .title
-    h1 Log into your pilot account
+    h1 Log into your Mineful Publisher account
 
 block content
   section.form.account
     form(method='POST', autocomplete='off')
       fieldset
         .row(label='Email')
-          input(type='email', name='email', placeholder='john@example.com', required, autofocus)
+          input(type='email', name='email', placeholder='oskar@spotify.com', required, autofocus)
         .row(label='Password')
           input(type='password', name='password', placeholder='••••••••', required)
       input(type='submit', value='Login')
